@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <!-- tailwindcss link -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+ <!-- fontawesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
@@ -35,40 +37,80 @@
 
 
    <!-- heading section -->
-    <div class="bg-gradient-to-r from-[#00c6ff] to-[#0072ff] w-[90%] mx-auto h-[90%]">
-        <div class="hero  min-h-screen mb-12">
-  <div class="hero-content text-center">
-    <div class="max-w-md">
-      <h1 class="text-5xl font-bold text-white">Hello there</h1>
-      <p class="py-6 text-white">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
-      </p>
-      <button class="btn btn-primary">Get Started</button>
+   
+      <div class="hero min-h-screen bg-center bg-cover bg-no-repeat" style="background-image: url(assets/photo1.jpg);">
+      <div class="hero-overlay"></div>
+      <div class="hero-content text-neutral-content text-center">
+        <div class="max-w-md">
+          <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+          <p class="mb-5">
+           Freshly baked cakes that melt in your mouth and warm your heart.<br>
+        From birthdays to sweet cravings — we've got a slice for every mood.
+          </p>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
     </div>
-  </div>
-    </div>
-
-    </div>
+   
     <!-- heading section end -->
       
     <!-- Our delicious cakes start here -->
       <div class="w-11/12 mx-auto py-8 ">
-        <h1 class="font-bold lg:text-4xl text-xl text-blue-950 text-center">Our delicious cakes</h1>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pt-4">
+        <h1 class="font-bold lg:text-4xl text-xl text-blue-950 text-center"> Our Special Cakes / Bestsellers</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pt-10">
          
-        <div><img src="assets/photo6.jpg" class="w-full h-full" alt=""></div>
-        <div><img src="assets/photo7.jpg" class="w-full h-full" alt=""></div>
-        <div><img src="assets/photo8.jpg" class="w-full h-full" alt=""></div>
-        <div><img src="assets/photo9.jpg" class="w-full h-full" alt=""></div>
-       
+        <div class="relative">
+          <img src="assets/photo6.jpg" class="w-full h-full rounded-md" alt="">
+          <p class="font-bold absolute top-2 left-3 px-3 py-1 rounded-xl bg-gradient-to-r from-[#a18cd1] to-[#fbc2eb]"><i class="fa-solid fa-indian-rupee-sign"></i>799</p>
+        </div>
 
+        <div class="relative">
+          <img src="assets/photo7.jpg" class="w-full h-full rounded-md" alt="">
+          <p class="font-bold absolute top-2 left-3 px-3 py-1 rounded-xl bg-gradient-to-r from-[#a18cd1] to-[#fbc2eb]"><i class="fa-solid fa-indian-rupee-sign"></i>849</p>
+        </div>
 
+        <div class="relative">
+          <img src="assets/photo8.jpg" class="w-full h-full rounded-md" alt="">
+          <p class="font-bold absolute top-2 left-3 px-3 py-1 rounded-xl bg-gradient-to-r from-[#a18cd1] to-[#fbc2eb]"><i class="fa-solid fa-indian-rupee-sign"></i>699</p>
+        </div>
+
+        <div class="relative">
+          <img src="assets/photo9.jpg" class="w-full h-full rounded-md" alt="">
+          <p class="font-bold absolute top-2 left-3 px-3 py-1 rounded-xl bg-gradient-to-r from-[#a18cd1] to-[#fbc2eb]"><i class="fa-solid fa-indian-rupee-sign"></i>749</p>
+        </div>
+       </div>
       </div>
-      
-
-     </div>
     <!-- Our delicious cakes end here -->
+
+    <!-- Our delicious ca start here -->
+      <div class="w-11/12 mx-auto py-8 ">
+        <h1 class="font-bold lg:text-4xl text-xl text-blue-950 text-center">Our Delightful Pastry</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pt-10">
+         
+        <div class="relative">
+          <img src="assets/dis1.jpg" class="w-full h-full" alt="">
+           <p class="font-bold absolute top-2 left-3 px-3 py-1 rounded-xl bg-gradient-to-r from-[#56ab2f] to-[#a8e063]">Only <i class="fa-solid fa-indian-rupee-sign"></i> 49</p>
+        </div>
+
+        <div class="relative">
+          <img src="assets/dis2.jpg" class="w-full h-full" alt="">
+           <p class="font-bold absolute top-2 left-3 px-3 py-1 rounded-xl bg-gradient-to-r from-[#56ab2f] to-[#a8e063]">Only <i class="fa-solid fa-indian-rupee-sign"></i> 69</p>
+        </div>
+
+        <div class="relative">
+          <img src="assets/dis3.jpg" class="w-full h-full" alt="">
+           <p class="font-bold absolute top-2 left-3 px-3 py-1 rounded-xl bg-gradient-to-r from-[#56ab2f] to-[#a8e063]">Only <i class="fa-solid fa-indian-rupee-sign"></i> 59</p>
+        </div>
+
+        <div class="relative">
+          <img src="assets/dis4.jpg" class="w-full h-full" alt="">
+           <p class="font-bold absolute top-2 left-3 px-3 py-1 rounded-xl bg-gradient-to-r from-[#56ab2f] to-[#a8e063]">Only <i class="fa-solid fa-indian-rupee-sign"></i> 49</p>
+        </div>
+
+       </div>
+      </div>
+    <!-- Our delicious cakes end here -->
+
 
 
     
